@@ -69,7 +69,7 @@
     <OutputPath>bin\AnyCPU\Debug\net452\</OutputPath>
     <DefineConstants>DEBUG;TRACE;ANYCPU</DefineConstants>
     <DebugType>full</DebugType>
-    <PlatformTarget>AnyCPU</PlatformTarget>
+    <PlatformTarget>x86</PlatformTarget>
     <LangVersion>7.3</LangVersion>
     <ErrorReport>prompt</ErrorReport>
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>

@@ -39,13 +39,13 @@
             <Button Content="Print..." Command="{Binding WebBrowser.PrintCommand, ElementName=Browser}" Grid.Column="3" Width="50" />
             <Button Content="View source" Command="{Binding WebBrowser.ViewSourceCommand, ElementName=Browser}" Grid.Column="4" Width="75" />
         </Grid>
-        <Border Grid.Row="1" BorderBrush="Gray" BorderThickness="0,1">
-            <wpf:ChromiumWebBrowser x:Name="Browser"
+        <Border Grid.Row="1" BorderBrush="Gray" BorderThickness="0,1" Name="Border">
+            <!--<wpf:ChromiumWebBrowser x:Name="Browser"
                                     Address="https://www.google.com">
                 <behaviors:Interaction.Behaviors>
                     <behaviours:HoverLinkBehaviour x:Name="HoverLinkBehaviour"/>
                 </behaviors:Interaction.Behaviors>
-            </wpf:ChromiumWebBrowser>
+            </wpf:ChromiumWebBrowser>-->
         </Border>
         <ProgressBar IsIndeterminate="{Binding IsLoading, ElementName=Browser}"
                      HorizontalAlignment="Stretch"
